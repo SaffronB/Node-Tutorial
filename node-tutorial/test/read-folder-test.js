@@ -1,3 +1,4 @@
+var assert = require("assert");
 describe("ReadFolder", function(){
 
     it('should find the lines syncronously', function(){
@@ -12,5 +13,5 @@ describe("ReadFolder", function(){
             done();
         });
     });
-    
+
 });
